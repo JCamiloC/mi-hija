@@ -211,10 +211,10 @@ export const guest = (() => {
         const url = new URL('https://calendar.google.com/calendar/render');
         const data = {
             action: 'TEMPLATE',
-            text: 'The Wedding of Wahyu and Riski',
-            dates: `${formatDate('2023-03-15 10:00')}/${formatDate('2023-03-15 11:00')}`,
-            details: 'Tanpa mengurangi rasa hormat, kami mengundang Anda untuk berkenan menghadiri acara pernikahan kami. Terima kasih atas perhatian dan doa restu Anda, yang menjadi kebahagiaan serta kehormatan besar bagi kami.',
-            location: 'https://goo.gl/maps/ALZR6FJZU3kxVwN86',
+            text: 'Baby Shower Julieta',
+            dates: `${formatDate('2025-07-04 14:00')}/${formatDate('2025-07-04 18:00')}`,
+            details: 'Mis papitos te agradeceran mucho que puedas acompañarnos en mi celebracion.',
+            location: 'https://maps.app.goo.gl/mv3bGBJGRQWYxfqp9',
             ctz: config.get('tz'),
         };
 
